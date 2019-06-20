@@ -3,4 +3,4 @@ build:
     - go
 
 run:
-  web: bin/server
+  web: bin/octopus-collector

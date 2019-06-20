@@ -1,1 +1,1 @@
-web: bin/server
+web: bin/octopus-collector
