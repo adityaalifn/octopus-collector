@@ -1,1 +1,2 @@
-go build -o bin/octopus-collector server.go response.go util.go
+#!/usr/bin/env bash
+go build -o bin/octopus-collector .
