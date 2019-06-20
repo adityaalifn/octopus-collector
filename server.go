@@ -5,7 +5,6 @@ import (
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"net/http"
-	"os"
 	"time"
 )
 
@@ -27,7 +26,7 @@ func main() {
 	e.GET("/pods", getAllPods)
 	e.GET("/pods/:id", getPodById)
 
-	e.Logger.Fatal(e.Start(os.Getenv("PORT")))
+	e.Logger.Fatal(e.Start("80"))
 }
 
 func index(ctx echo.Context) error {
