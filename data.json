@@ -1,18 +1,116 @@
 [
   {
-    "id": "def123",
-    "node": "gopay2",
-    "address": "192.168.1.1",
-    "service_id": "def1234",
-    "service_address": "192.168.1.2",
-    "service_port": 80
+    "namespace": "\u001b[1;32mdefault\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "172.17.0.13",
+    "serviceId": "counting"
   },
   {
-    "id": "abc123",
-    "node": "gopay2",
-    "address": "192.168.1.1",
-    "service_id": "def1234",
-    "service_address": "192.168.1.2",
-    "service_port": 80
+    "namespace": "\u001b[1;32mdefault\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "172.17.0.9",
+    "serviceId": "dashboard"
+  },
+  {
+    "namespace": "\u001b[1;32mdefault\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "172.17.0.8",
+    "serviceId": "hedgehog-consul-connect-injector-webhook-deployment-75797dwqclj"
+  },
+  {
+    "namespace": "\u001b[1;32mdefault\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "172.17.0.7",
+    "serviceId": "hedgehog-consul-qj2lf"
+  },
+  {
+    "namespace": "\u001b[1;32mdefault\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "172.17.0.10",
+    "serviceId": "hedgehog-consul-server-0"
+  },
+  {
+    "namespace": "\u001b[1;32mdefault\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "172.17.0.4",
+    "serviceId": "hello-world-595b86f849-2kx6f"
+  },
+  {
+    "namespace": "\u001b[1;32mdefault\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "172.17.0.3",
+    "serviceId": "hello-world-595b86f849-9wjnj"
+  },
+  {
+    "namespace": "\u001b[1;32mdefault\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "172.17.0.5",
+    "serviceId": "hello-world-595b86f849-n9lpc"
+  },
+  {
+    "namespace": "\u001b[1;32mkube-system\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "172.17.0.11",
+    "serviceId": "coredns-fb8b8dccf-7bmk8"
+  },
+  {
+    "namespace": "\u001b[1;32mkube-system\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "172.17.0.12",
+    "serviceId": "coredns-fb8b8dccf-zzz52"
+  },
+  {
+    "namespace": "\u001b[1;32mkube-system\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "192.168.64.9",
+    "serviceId": "etcd-minikube"
+  },
+  {
+    "namespace": "\u001b[1;32mkube-system\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "192.168.64.9",
+    "serviceId": "kube-addon-manager-minikube"
+  },
+  {
+    "namespace": "\u001b[1;32mkube-system\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "192.168.64.9",
+    "serviceId": "kube-apiserver-minikube"
+  },
+  {
+    "namespace": "\u001b[1;32mkube-system\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "192.168.64.9",
+    "serviceId": "kube-controller-manager-minikube"
+  },
+  {
+    "namespace": "\u001b[1;32mkube-system\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "192.168.64.9",
+    "serviceId": "kube-proxy-ncd7z"
+  },
+  {
+    "namespace": "\u001b[1;32mkube-system\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "192.168.64.9",
+    "serviceId": "kube-scheduler-minikube"
+  },
+  {
+    "namespace": "\u001b[1;32mkube-system\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "172.17.0.2",
+    "serviceId": "kubernetes-dashboard-d7c9687c7-tktx5"
+  },
+  {
+    "namespace": "\u001b[1;32mkube-system\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "192.168.64.9",
+    "serviceId": "storage-provisioner"
+  },
+  {
+    "namespace": "\u001b[1;32mkube-system\u001b[0m",
+    "node": "minikube",
+    "serviceAddress": "172.17.0.6",
+    "serviceId": "tiller-deploy-66b7dd976-nmsnd"
   }
 ]

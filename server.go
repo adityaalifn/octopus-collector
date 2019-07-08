@@ -1,11 +1,9 @@
 package main
 
 import (
-	"fmt"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"net/http"
-	"os"
 	"time"
 )
 
@@ -26,8 +24,13 @@ func main() {
 	e.GET("/", index)
 	e.GET("/pods", getAllPods)
 	e.GET("/pods/:id", getPodById)
+	e.GET("/consul/services", getServices)
 
-	e.Logger.Fatal(e.Start(":" + os.Getenv("PORT")))
+	e.Logger.Fatal(e.Start(":5000"))
+}
+
+func getServices(context echo.Context) error {
+	return context.JSON(http.StatusOK, pods)
 }
 
 func index(ctx echo.Context) error {
@@ -35,12 +38,7 @@ func index(ctx echo.Context) error {
 }
 
 func getAllPods(ctx echo.Context) error {
-	response := &Content{}
-	response.Status = http.StatusOK
-	response.Timestamp = time.Now()
-	response.Response = pods
-	fmt.Println(response)
-	return ctx.JSON(http.StatusOK, response)
+	return ctx.JSON(http.StatusOK, pods)
 }
 
 func getPodById(ctx echo.Context) error {
